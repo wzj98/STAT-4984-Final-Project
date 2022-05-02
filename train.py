@@ -53,6 +53,6 @@ if __name__ == "__main__":
     # 将网络拷贝到deivce中
     net.to(device=device)
     # 指定训练集地址，开始训练
-    data_path = "C:/Users/chenmingsong/Desktop/unetnnn/skin" # todo 修改为你本地的数据集位置
+    data_path = "/Users/zijianwang/Desktop/STAT 4984/unet/data" # todo 修改为你本地的数据集位置
     print("进度条出现卡着不动不是程序问题，是他正在计算，请耐心等待")
     train_net(net, device, data_path, epochs=40, batch_size=1)
