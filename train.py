@@ -1,3 +1,5 @@
+"""Refer https://chowdera.com/2020/12/20201205011610103q.html"""
+
 from model.unet_model import UNet
 from utils.dataset import ISBI_Loader
 from torch import optim
